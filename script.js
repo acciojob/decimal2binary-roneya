@@ -2,7 +2,7 @@
 function decimalToBinary(num){
   
 let binaryStr = num.toString(2);
-console.log(binaryStr);
+return binaryStr;
 }
 
 module.exports = decimalToBinary;
