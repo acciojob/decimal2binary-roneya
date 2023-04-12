@@ -3,8 +3,6 @@ const decimalToBinary = (num) => {
   return binaryStr;
 };
 
-const num = prompt("Enter a decimal number:");
-const binaryStr = decimalToBinary(parseInt(num));
-alert(binaryStr);
-
-module.exports = decimalToBinary;
+const num = parseInt(process.argv[2]);
+const binaryStr = decimalToBinary(num);
+console.log(binaryStr);
